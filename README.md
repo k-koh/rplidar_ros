@@ -1,3 +1,23 @@
+RPLIDAR ROS driver for Autoware
+=====================================================================
+
+This is RPLIDAR ROS driver for Autoware.I copied the RPLIDAR ROS driver from https://github.com/Slamtec/rplidar_ros
+and added PointCloud2 Topic.
+
+### Published Topics
+
+points_raw (sensor_msgs/PointCloud2)
+
+    The Added PointCloud2, set frame_id with velodyne.
+
+scan (sensor_msgs/LaserScan)
+
+    The original scan data.
+
+
+Below is original README from RPLIDAR ROS driver:
+
+
 RPLIDAR ROS package
 =====================================================================
 
